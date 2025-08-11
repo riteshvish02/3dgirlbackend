@@ -19,7 +19,7 @@ app.use(cors({
 }));
 
 // Basic health check route
-app.get('/', (req, res) => {
+app.get('/aa', (req, res) => {
   res.json({ message: 'Aishura Chat Server Running', status: 'OK' });
 });
 
